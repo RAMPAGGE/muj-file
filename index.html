@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Hudební Stránka</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00ffcc; /* Neon Cyan */
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.6); /* Neon Cyan Shadow */
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            color: #00ffcc; /* Neon Cyan */
+            text-shadow: 0 0 20px rgba(0, 255, 204, 0.8); /* Neon Cyan Glow */
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 5px;
+            transition: color 0.3s, border-bottom-color 0.3s;
+        }
+        nav a:hover {
+            color: #ff00ff; /* Neon Magenta */
+            border-bottom: 2px solid #ff00ff; /* Neon Magenta */
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            background: #00ffcc; /* Neon Cyan */
+            color: #000;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .button:hover {
+            background: #ff00ff; /* Neon Magenta */
+            color: #fff;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: #aaa;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            border-top: 2px solid #00ffcc; /* Neon Cyan */
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.6); /* Neon Cyan Shadow */
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #00ffcc; /* Neon Cyan */
+            text-shadow: 0 0 10px rgba(0, 255, 204, 0.6); /* Neon Cyan Glow */
+        }
+        .news-item {
+            background: rgba(34, 34, 34, 0.7);
+            border: 1px solid #ff00ff; /* Neon Magenta */
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: left;
+        }
+        .news-item h3 {
+            margin: 0;
+            color: #ff00ff; /* Neon Magenta */
+        }
+        .contact-info, .about-me {
+            background: rgba(34, 34, 34, 0.7);
+            border: 1px solid #00ffcc; /* Neon Cyan */
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #00ffcc; /* Neon Cyan */
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vítejte na Moje Hudební Stránce</h1>
+        <nav>
+            <a href="index.html">Domů</a>
+            <a href="library.html">Knihovna</a>
+            <a href="#news">Novinky</a>
+            <a href="#about">O Mně</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="intro">
+            <h2>Objevte Moje Hudební Díla</h2>
+            <p>Na této stránce naleznete všechna moje hudební díla, která si můžete poslechnout online a stáhnout.</p>
+            <a href="library.html" class="button">Přejít na Knihovnu Skladby</a>
+        </section>
+        <section id="news">
+            <h2>Novinky</h2>
+            <div class="news-item">
+                <h3>Nový Cover:</h3>
+                <p>Nedávno jsem přidal nové cover verze skladeb z League of Legends, které můžete nyní slyšet na mém kanálu. <p>YouTube: <a href="https://www.youtube.com/@LeagueOfLegendsCovers/playlists" target="_blank">@LeagueOfLegendsCovers</a></p>Tyto nové verze přinášejí svěží pohled na vaše oblíbené herní melodie.</p>
+            </div>
+            <div class="news-item">
+                <h3>Nová Hudební Video</h3>
+                <p>Podívejte se na mé nejnovější hudební video, kde představím nový cover známé herní skladby.</p>
+            </div>
+            <div class="news-item">
+                <h3>Sekce "Knihovna"</h3>
+                <p>Nezapomeňte se podívat do mé knihovny, kde najdete nejen nejnovější skladby, ale také starší oblíbené kousky a skladby, které teprve vyjdou na YouTube. Každá skladba je k dispozici k poslechu online nebo ke stažení, takže si můžete užít moji hudbu, kdykoli budete chtít. Udržujte si přehled o všech novinkách a nechte se inspirovat hudbou, kterou neustále vytvářím.</p>
+            </div>
+            <!-- Přidejte další novinky podle potřeby -->
+        </section>
+        <section id="about" class="about-me">
+            <h2>O Mně</h2>
+            <p>Jsem RTPsycho, tvůrce hudby a producent specializující se na hudební cover verze známých skladeb z videoher, zejména z League of Legends. Mým cílem je přinášet unikátní a emocionálně nabité verze oblíbených herních melodií, které si můžete vychutnat v novém světle. S každým projektem se snažím posouvat hranice a kombinovat různé hudební prvky, aby mé cover verze byly svěží a inovativní.</p>
+        </section>
+        <section id="contact" class="contact-info">
+            <h2>Kontakt</h2>
+            <p>Pokud mě chcete kontaktovat, můžete použít následující způsoby:</p>
+            <p>Email: <a href="mailto:ferbysek3@gmail.com">ferbysek3@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/rtp_ivos/" target="_blank">@rtp_ivos</a></p>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knihovna Skladby - Moje Hudební Stránka</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00ffcc; /* Neon Cyan */
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.6); /* Neon Cyan Shadow */
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            color: #00ffcc; /* Neon Cyan */
+            text-shadow: 0 0 20px rgba(0, 255, 204, 0.8); /* Neon Cyan Glow */
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 5px;
+            transition: color 0.3s, border-bottom-color 0.3s;
+        }
+        nav a:hover {
+            color: #ff00ff; /* Neon Magenta */
+            border-bottom: 2px solid #ff00ff; /* Neon Magenta */
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: #aaa;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            border-top: 2px solid #00ffcc; /* Neon Cyan */
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.6); /* Neon Cyan Shadow */
+        }
+        .audio-player {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #00ffcc; /* Neon Cyan */
+            border-radius: 5px;
+            background: rgba(34, 34, 34, 0.7);
+        }
+        .download-link {
+            color: #00ffcc; /* Neon Cyan */
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+            transition: color 0.3s;
+        }
+        .download-link:hover {
+            color: #ff00ff; /* Neon Magenta */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Knihovna Skladby</h1>
+        <nav>
+            <a href="index.html">Domů</a>
+            <a href="#library">Knihovna</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+    <div class="container" id="library">
+        <h2>Moje Skladby</h2>
+        <!-- Audio sloty -->
+        <!-- Příklady skladeb -->
+        <div class="audio-player">
+            <h3>Aathrax 1</h3>
+            <audio controls>
+                <source src="Příběh - Aathrax.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Aathrax.mp3" class="https://www.mediafire.com/file/1eslmlyzdryatfk/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Aathrax.mp3/file" download>Stáhnout</a>
+        </div>
+        <div class="audio-player">
+            <h3>Alistar</h3>
+            <audio controls>
+                <source src="Příběh - Alistar.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Alistar.mp3" class="https://www.mediafire.com/file/l3ovjt034fa9jtp/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Alistar.mp3/file" download>Stáhnout</a>
+        </div>
+        <div class="audio-player">
+            <h3>Darius</h3>
+            <audio controls>
+                <source src="příběh - Darius.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="příběh - Darius.mp3" class="https://www.mediafire.com/file/0quh31p9rf22z2c/p%25C5%2599%25C3%25ADb%25C4%259Bh_-_Darius.mp3/file" download>Stáhnout</a>
+        </div>
+        <div class="audio-player">
+            <h3>Draven</h3>
+            <audio controls>
+                <source src="Příběh - Draven.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Draven.mp3" class="https://www.mediafire.com/file/1vgislw6x5eibor/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Draven.mp3/file" download>Stáhnout</a>
+        </div>
+        <div class="audio-player">
+            <h3>Fiddlesticks</h3>
+            <audio controls>
+                <source src="Příběh - Fiddlesticks.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Fiddlesticks.mp3" class="https://www.mediafire.com/file/tkkshde3n3s7k8v/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Fiddlesticks.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Hecarim</h3>
+            <audio controls>
+                <source src="příběh - Hecarim.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="příběh - Hecarim.mp3" class="https://www.mediafire.com/file/eyvtfsmxnifcdgr/p%25C5%2599%25C3%25ADb%25C4%259Bh_-_Hecarim.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Jinx</h3>
+            <audio controls>
+                <source src="Příběh - Jinx.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Jinx.mp3" class="https://www.mediafire.com/file/vlc369s2iu99gew/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Jinx.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Katarina</h3>
+            <audio controls>
+                <source src="Příběh - Katarina.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Katarina.mp3" class="https://www.mediafire.com/file/kxcto6bwmetopk4/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Katarina.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Kayn</h3>
+            <audio controls>
+                <source src="Příběh - Kayn.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Kayn.mp3" class="https://www.mediafire.com/file/0ghm7ryfif5e6mz/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Kayn.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Kindred</h3>
+            <audio controls>
+                <source src="Příběh - Kindred.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Kindred.mp3" class="https://www.mediafire.com/file/1boky67oa2tsmke/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Kindred.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Leona</h3>
+            <audio controls>
+                <source src="Příběh - Leona.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Leona.mp3" class="https://www.mediafire.com/file/psoyc8b0wqb5clc/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Leona.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Fiddlesticks</h3>
+            <audio controls>
+                <source src="Příběh - Fiddlesticks.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Fiddlesticks.mp3" class="https://www.mediafire.com/file/tkkshde3n3s7k8v/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Fiddlesticks.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Malzahar</h3>
+            <audio controls>
+                <source src="Příběh - Malzahar.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Malzahar.mp3" class="https://www.mediafire.com/file/4ljtv5cia8iqbw9/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Malzahar.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Mordekaiser</h3>
+            <audio controls>
+                <source src="Příběh - Mordekaiser.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Mordekaiser.mp3" class="https://www.mediafire.com/file/ks21nupmd8au68k/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Mordekaiser.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Nautilus</h3>
+            <audio controls>
+                <source src="Příběh - Nautilus.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Nautilus.mp3" class="https://www.mediafire.com/file/6sg671nu1zdszu5/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Nautilus.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Nidalee</h3>
+            <audio controls>
+                <source src="Příběh - Nidalee.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Nidalee.mp3" class="https://www.mediafire.com/file/kd96p8vjj18v0kc/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Nidalee.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Olaf</h3>
+            <audio controls>
+                <source src="Příběh - Olaf.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Olaf.mp3" class="https://www.mediafire.com/file/ijymeiuhav0eowk/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Olaf.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Pyke</h3>
+            <audio controls>
+                <source src="Příběh - Pyke.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Pyke.mp3" class="https://www.mediafire.com/file/dr6lt877l6pkhkf/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Pyke.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Shauny Vayne</h3>
+            <audio controls>
+                <source src="Příběh - Shauny Vayne..mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Shauny Vayne..mp3" class="https://www.mediafire.com/file/m9ie9eanb0bir1c/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Shauny_Vayne..mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Shen</h3>
+            <audio controls>
+                <source src="Příběh - Shen.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Shen.mp3" class="https://www.mediafire.com/file/tkkshde3n3s7k8v/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Fiddlesticks.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Sion</h3>
+            <audio controls>
+                <source src="Příběh - Sion.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Sion.mp3" class="https://www.mediafire.com/file/wdfwj7a830s0p39/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Sion.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Fiddlesticks</h3>
+            <audio controls>
+                <source src="Příběh - The Virtuoso (Píseň o Jhinovi).mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - The Virtuoso (Píseň o Jhinovi).mp3" class="https://www.mediafire.com/file/tkkshde3n3s7k8v/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Fiddlesticks.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Tresh</h3>
+            <audio controls>
+                <source src="Příběh - Tresh.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Tresh.mp3" class="https://www.mediafire.com/file/3lw77sojeug5zsk/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Tresh.mp3/file.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Tryndamer</h3>
+            <audio controls>
+                <source src="Příběh - Tryndamer.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Tryndamer.mp3" class="https://www.mediafire.com/file/coxk3n0htcni4h9/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Tryndamer.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Varus</h3>
+            <audio controls>
+                <source src="Příběh - Varus.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Varus.mp3" class="https://www.mediafire.com/file/blpvg16dpottr7i/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Varus.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Volibear</h3>
+            <audio controls>
+                <source src="Příběh - Volibear, Orn a Anivia.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Volibear, Orn a Anivia.mp3" class="https://www.mediafire.com/file/nsgn5vqubmuvu9h/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Volibear%252C_Orn_a_Anivia.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Xayah</h3>
+            <audio controls>
+                <source src="Příběh - Xayah & Rakan.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Xayah & Rakan.mp3" class="https://www.mediafire.com/file/durk2s3q1ob499i/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Xayah_%2526_Rakan.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Yonte & Yasuo</h3>
+            <audio controls>
+                <source src="Příběh - Yonte a Yasuo.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Yonte a Yasuo.mp3" class="https://www.mediafire.com/file/83ub31vth6z99zt/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Yonte_a_Yasuo.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Zed</h3>
+            <audio controls>
+                <source src="Příběh - Zed.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh - Zed.mp3" class="https://www.mediafire.com/file/jdlmnhcqgw50ka2/P%25C5%2599%25C3%25ADb%25C4%259Bh_-_Zed.mp3/file" download>Stáhnout</a>
+        </div><div class="audio-player">
+            <h3>Dr. Mundo</h3>
+            <audio controls>
+                <source src="Příběh -Dr. Mundo.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Příběh -Dr. Mundo.mp3" class="https://www.mediafire.com/file/33k6i1ewfaaaj82/P%25C5%2599%25C3%25ADb%25C4%259Bh_-Dr._Mundo.mp3/file" download>Stáhnout</a>
+        </div>
+        <div class="audio-player">
+            <h3>Viego feat. Sidget</h3>
+            <audio controls>
+                <source src="Viego - Feat. Sidget.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio tag.
+            </audio>
+            <a href="Viego - Feat. Sidget.mp3" class="https://www.mediafire.com/file/9eracwwibtlg58h/Viego_-_Feat._Sidget.mp3/file" download>Stáhnout</a>
+        </div>
+    </div>
+</body>
+</html>
